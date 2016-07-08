@@ -1,0 +1,45 @@
+
+body{
+	margin: 0;
+	
+	
+}
+#pic_Container{
+	top:0px;
+	width:1366px;
+	height:758px;
+	background-color:yellow;
+	margin-left: auto; 
+	margin-right: auto;
+	position:relative;
+}
+
+img{
+	max-width: 100%;
+	
+	
+}
+
+#bul_container{
+	bottom:0px;
+	width: 100px;
+	height:20px;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+}
+/**
+.bullet{
+	position:relative;
+	width:11px;
+	height:11px;
+	margin:5px;
+	display:inline-block;
+	background: url(/images/icons/bullet.png) 0 0;  
+	float:left;
+	
+}
+
+**/
+
