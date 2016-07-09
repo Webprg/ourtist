@@ -1,7 +1,8 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/style.css">
-		
+		<link rel="stylesheet" href="css/unslider.css">
+		<link rel="stylesheet" href="css/unslider-dots.css">
   </head>
 	
     <body>
@@ -19,7 +20,10 @@
 		<script src="js/unslider.js"></script>
 		<script>
 			$(document).ready(function(){
-				$('.banner').unslider();
+				$('.banner').unslider({
+					autoplay:true,
+					arrows: false
+				});
 			});
 		
 		</script>
